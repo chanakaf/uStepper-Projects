@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding ="utf-8" ?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >
+  <PropertyGroup Label="Globals" >
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{75b4de0e-a026-4dd3-ae98-3e2bb5169bf4}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)uStepperDriver.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)uStepperEncoder.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)uStepperS.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)uStepperServo.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\uStepperDriver.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\uStepperEncoder.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\uStepperS.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\uStepperServo.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)uStepperDriver.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)uStepperEncoder.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)uStepperS.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)uStepperServo.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\uStepperDriver.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\uStepperEncoder.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\uStepperS.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\uStepperServo.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="$(MSBuildThisFileDirectory)keywords.txt" />
+<Text Include="$(MSBuildThisFileDirectory)library.properties" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)README.md" />
+  </ItemGroup>
+</Project>

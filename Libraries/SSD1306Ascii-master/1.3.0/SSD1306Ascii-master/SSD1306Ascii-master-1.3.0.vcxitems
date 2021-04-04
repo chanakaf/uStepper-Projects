@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding ="utf-8" ?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >
+  <PropertyGroup Label="Globals" >
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{3e3f43b2-9969-4a54-826b-2bdd30a45992}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\SSD1306Ascii.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\SSD1306Ascii.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\SSD1306AsciiAvrI2c.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\SSD1306AsciiSoftSpi.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\SSD1306AsciiSpi.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\SSD1306AsciiWire.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\SSD1306init.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\fonts\Adafruit5x7.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\fonts\allFonts.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\fonts\Arial14.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\fonts\Arial_bold_14.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\fonts\CalBlk36.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\fonts\Callibri10.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\fonts\Callibri11.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\fonts\Callibri11_bold.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\fonts\Callibri11_italic.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\fonts\Callibri14.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\fonts\Callibri15.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\fonts\CalLite24.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\fonts\Cooper19.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\fonts\Cooper21.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\fonts\Cooper26.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\fonts\Corsiva_12.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\fonts\cp437font8x8.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\fonts\fixednums15x31.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\fonts\fixednums7x15.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\fonts\fixednums8x16.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\fonts\fixed_bold10x15.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\fonts\font5x7.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\fonts\font8x8.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\fonts\Iain5x7.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\fonts\lcd5x7.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\fonts\lcdnums12x16.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\fonts\lcdnums14x24.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\fonts\newbasic3x5.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\fonts\Roosewood22.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\fonts\Roosewood26.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\fonts\Stang5x7.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\fonts\System5x7.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\fonts\SystemFont5x7.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\fonts\TimesNewRoman13.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\fonts\TimesNewRoman13_italic.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\fonts\TimesNewRoman16.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\fonts\TimesNewRoman16_bold.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\fonts\TimesNewRoman16_italic.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\fonts\utf8font10x16.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\fonts\Verdana12.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\fonts\Verdana12_bold.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\fonts\Verdana12_italic.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\fonts\Verdana_digits_24.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\fonts\Wendy3x5.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\fonts\X11fixed7x14.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\fonts\X11fixed7x14B.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\fonts\ZevvPeep8x16.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\utility\AvrI2c.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\utility\DigitalOutput.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="$(MSBuildThisFileDirectory)library.properties" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)README.md" />
+  </ItemGroup>
+</Project>
