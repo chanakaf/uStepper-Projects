@@ -5,39 +5,39 @@ VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "uStepper", "uStepper.vcxitems", "{1A68FE6C-F685-464C-B6EC-CFE945FEB81D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "uStepper Test", "..\..\Arduino\uStepper Test\uStepper Test.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "uStepper Test", "uStepper Test\uStepper Test.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "uStepper_Lathe", "..\..\Arduino\uStepper_Lathe\uStepper_Lathe.vcxproj", "{7CB24403-3782-4193-9A1B-EFFD9ABF8BBA}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "uStepper_Lathe", "uStepper_Lathe\uStepper_Lathe.vcxproj", "{7CB24403-3782-4193-9A1B-EFFD9ABF8BBA}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Button Test", "..\..\Arduino\Button Test\Button Test.vcxproj", "{42566D00-9DE1-4451-A0B1-9D9903C75827}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Button Test", "Button Test\Button Test.vcxproj", "{42566D00-9DE1-4451-A0B1-9D9903C75827}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OLED", "..\..\Arduino\OLED\OLED.vcxproj", "{61B554F7-33B0-471F-BB0D-185907776243}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OLED", "OLED\OLED.vcxproj", "{61B554F7-33B0-471F-BB0D-185907776243}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IIC Scanner", "..\..\Arduino\IIC Scanner\IIC Scanner.vcxproj", "{7AD593FE-730C-492E-BFE3-91C5933A135C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IIC Scanner", "IIC Scanner\IIC Scanner.vcxproj", "{7AD593FE-730C-492E-BFE3-91C5933A135C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IIC Scan", "..\..\Arduino\IIC Scan\IIC Scan.vcxproj", "{FEE9B89F-6A75-458F-B7F8-ACE968D87518}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IIC Scan", "IIC Scan\IIC Scan.vcxproj", "{FEE9B89F-6A75-458F-B7F8-ACE968D87518}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test 128x128", "..\..\Arduino\test 128x128\test 128x128.vcxproj", "{375B5ED0-D50A-49F0-8FF8-993B029CFE96}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test 128x128", "test 128x128\test 128x128.vcxproj", "{375B5ED0-D50A-49F0-8FF8-993B029CFE96}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SSD1306Ascii-master-1.3.0", "Libraries\SSD1306Ascii-master\1.3.0\SSD1306Ascii-master\SSD1306Ascii-master-1.3.0.vcxitems", "{3E3F43B2-9969-4A54-826B-2BDD30A45992}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Adafruit_SSD1306-master-2.4.3", "Libraries\Adafruit_SSD1306-master\2.4.3\Adafruit_SSD1306-master\Adafruit_SSD1306-master-2.4.3.vcxitems", "{1AEBDDCC-8516-4914-9597-E15AABDC1A7E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SSD1306ascii", "..\..\Arduino\SSD1306ascii\SSD1306ascii.vcxproj", "{E206004B-7915-494D-971F-1EAE0321C97F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SSD1306ascii", "SSD1306ascii\SSD1306ascii.vcxproj", "{E206004B-7915-494D-971F-1EAE0321C97F}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "uStepper_S-2.1.0", "Libraries\uStepper_S\2.1.0\uStepper_S\uStepper_S-2.1.0.vcxitems", "{75B4DE0E-A026-4DD3-AE98-3E2BB5169BF4}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Teensy MicroStepper", "..\..\Arduino\Teensy MicroStepper\Teensy MicroStepper.vcxproj", "{43FB8266-76B6-4A2C-A067-3BE1C5853DB0}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Teensy MicroStepper", "Teensy MicroStepper\Teensy MicroStepper.vcxproj", "{43FB8266-76B6-4A2C-A067-3BE1C5853DB0}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bounce", "..\..\Arduino\libraries\AccelStepper-1.61.0\examples\Bounce\Bounce.vcxproj", "{081D77CB-B316-49F4-BDD7-4A83BC714A50}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Teensy TB6600 Lathe", "..\..\Arduino\Teensy TB6600 Lathe\Teensy TB6600 Lathe.vcxproj", "{F1039B3E-49EE-4BEB-87A5-07963D1C0A9D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Teensy TB6600 Lathe", "Teensy TB6600 Lathe\Teensy TB6600 Lathe.vcxproj", "{F1039B3E-49EE-4BEB-87A5-07963D1C0A9D}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Adafruit_GFX_Library-1.10.6-1.10.6", "Libraries\Adafruit_GFX_Library-1.10.6\1.10.6\Adafruit_GFX_Library-1.10.6\Adafruit_GFX_Library-1.10.6-1.10.6.vcxitems", "{6F825A7F-DFE7-458C-976B-4BB872844436}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iAccelStepper-master-0.0.0", "Libraries\iAccelStepper-master\0.0.0\iAccelStepper-master\iAccelStepper-master-0.0.0.vcxitems", "{8E1467C0-8D32-47CE-B78D-9638413B3C7D}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "arduino_timer-2.3.0-2.3.0", "Libraries\arduino_timer-2.3.0\2.3.0\arduino_timer-2.3.0\arduino_timer-2.3.0-2.3.0.vcxitems", "{20986A95-0078-4304-9978-DEB994D0632B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Wire-1.0", "Libraries\Wire\1.0\Wire\Wire-1.0.vcxitems", "{624D1776-7D46-4F50-A20C-DEAE4E64F0BE}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
@@ -45,18 +45,19 @@ Global
 		Libraries\Adafruit_SSD1306-master\2.4.3\Adafruit_SSD1306-master\Adafruit_SSD1306-master-2.4.3.vcxitems*{1aebddcc-8516-4914-9597-e15aabdc1a7e}*SharedItemsImports = 9
 		Libraries\arduino_timer-2.3.0\2.3.0\arduino_timer-2.3.0\arduino_timer-2.3.0-2.3.0.vcxitems*{20986a95-0078-4304-9978-deb994d0632b}*SharedItemsImports = 9
 		Libraries\SSD1306Ascii-master\1.3.0\SSD1306Ascii-master\SSD1306Ascii-master-1.3.0.vcxitems*{3e3f43b2-9969-4a54-826b-2bdd30a45992}*SharedItemsImports = 9
-		..\uStepper\Libraries\SSD1306Ascii-master\1.3.0\SSD1306Ascii-master\SSD1306Ascii-master-1.3.0.vcxitems*{61b554f7-33b0-471f-bb0d-185907776243}*SharedItemsImports = 4
-		..\uStepper\Libraries\uStepper_S\2.1.0\uStepper_S\uStepper_S-2.1.0.vcxitems*{61b554f7-33b0-471f-bb0d-185907776243}*SharedItemsImports = 4
+		Libraries\SSD1306Ascii-master\1.3.0\SSD1306Ascii-master\SSD1306Ascii-master-1.3.0.vcxitems*{61b554f7-33b0-471f-bb0d-185907776243}*SharedItemsImports = 4
+		Libraries\uStepper_S\2.1.0\uStepper_S\uStepper_S-2.1.0.vcxitems*{61b554f7-33b0-471f-bb0d-185907776243}*SharedItemsImports = 4
+		Libraries\Wire\1.0\Wire\Wire-1.0.vcxitems*{624d1776-7d46-4f50-a20c-deae4e64f0be}*SharedItemsImports = 9
 		Libraries\Adafruit_GFX_Library-1.10.6\1.10.6\Adafruit_GFX_Library-1.10.6\Adafruit_GFX_Library-1.10.6-1.10.6.vcxitems*{6f825a7f-dfe7-458c-976b-4bb872844436}*SharedItemsImports = 9
 		Libraries\uStepper_S\2.1.0\uStepper_S\uStepper_S-2.1.0.vcxitems*{75b4de0e-a026-4dd3-ae98-3e2bb5169bf4}*SharedItemsImports = 9
-		Libraries\iAccelStepper-master\0.0.0\iAccelStepper-master\iAccelStepper-master-0.0.0.vcxitems*{8e1467c0-8d32-47ce-b78d-9638413b3c7d}*SharedItemsImports = 9
-		..\uStepper\Libraries\Adafruit_SSD1306-master\2.4.3\Adafruit_SSD1306-master\Adafruit_SSD1306-master-2.4.3.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
-		..\uStepper\Libraries\SSD1306Ascii-master\1.3.0\SSD1306Ascii-master\SSD1306Ascii-master-1.3.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
-		..\uStepper\Libraries\Wire\1.0\Wire\Wire-1.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
-		..\uStepper\Libraries\SSD1306Ascii-master\1.3.0\SSD1306Ascii-master\SSD1306Ascii-master-1.3.0.vcxitems*{e206004b-7915-494d-971f-1eae0321c97f}*SharedItemsImports = 4
-		..\uStepper\Libraries\uStepper_S\2.1.0\uStepper_S\uStepper_S-2.1.0.vcxitems*{e206004b-7915-494d-971f-1eae0321c97f}*SharedItemsImports = 4
-		..\uStepper\Libraries\Wire1\1.0\Wire1\Wire1-1.0.vcxitems*{e206004b-7915-494d-971f-1eae0321c97f}*SharedItemsImports = 4
-		..\uStepper\Libraries\Wire\1.0\Wire\Wire-1.0.vcxitems*{e206004b-7915-494d-971f-1eae0321c97f}*SharedItemsImports = 4
+		Libraries\Wire\1.0\Wire\Wire-1.0.vcxitems*{7cb24403-3782-4193-9a1b-effd9abf8bba}*SharedItemsImports = 4
+		Libraries\Adafruit_SSD1306-master\2.4.3\Adafruit_SSD1306-master\Adafruit_SSD1306-master-2.4.3.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\SSD1306Ascii-master\1.3.0\SSD1306Ascii-master\SSD1306Ascii-master-1.3.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\Wire\1.0\Wire\Wire-1.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\SSD1306Ascii-master\1.3.0\SSD1306Ascii-master\SSD1306Ascii-master-1.3.0.vcxitems*{e206004b-7915-494d-971f-1eae0321c97f}*SharedItemsImports = 4
+		Libraries\uStepper_S\2.1.0\uStepper_S\uStepper_S-2.1.0.vcxitems*{e206004b-7915-494d-971f-1eae0321c97f}*SharedItemsImports = 4
+		Libraries\Wire1\1.0\Wire1\Wire1-1.0.vcxitems*{e206004b-7915-494d-971f-1eae0321c97f}*SharedItemsImports = 4
+		Libraries\Wire\1.0\Wire\Wire-1.0.vcxitems*{e206004b-7915-494d-971f-1eae0321c97f}*SharedItemsImports = 4
 		Libraries\Adafruit_GFX_Library-1.10.6\1.10.6\Adafruit_GFX_Library-1.10.6\Adafruit_GFX_Library-1.10.6-1.10.6.vcxitems*{f1039b3e-49ee-4beb-87a5-07963d1c0a9d}*SharedItemsImports = 4
 		Libraries\Adafruit_SSD1306-master\2.4.3\Adafruit_SSD1306-master\Adafruit_SSD1306-master-2.4.3.vcxitems*{f1039b3e-49ee-4beb-87a5-07963d1c0a9d}*SharedItemsImports = 4
 	EndGlobalSection
